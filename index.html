@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Exercise Monitoring System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Flex Exercise Monitoring System</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#illustrations">System Illustrations</a></li>
+                <li><a href="#code">Project Code</a></li>
+                <li><a href="#data">Project Data</a></li>
+                <li><a href="#presentation">Presentation</a></li>
+                <li><a href="#video">Demo Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="overview" class="container">
+        <h2>Project Overview</h2>
+        <p>Although the benefits of regular exercise and muscle building on overall health and well-being are universally acknowledged, quantifying the intensity and effectiveness of a workout remains a challenge. Traditional metrics such as repetition counts, sets, and estimated loads provide a limited perspective on how much strain muscles endure during a session. Without a direct measure of muscular effort, it becomes difficult to gauge progress, optimize training, or prevent overexertion and injury.</p>
+        
+        <div class="flex-container">
+            <div class="card">
+                <h3>Solution Approach</h3>
+                <p>To address this, our project utilizes a single Inertial Measurement Unit (IMU) to classify and count repetitions of upper body exercises, including bicep curls, and shoulder presses.</p>
+            </div>
+            <div class="card">
+                <h3>Muscle Analysis</h3>
+                <p>In addition to tracking repetitions, the system analyzes the state of the muscle using EMG sensor data, allowing us to assess muscle fatigue during exercise.</p>
+            </div>
+            <div class="card">
+                <h3>Project Goals</h3>
+                <p>This project is designed to predict the onset of muscular failure and help prevent overexertion and injury through continuous real-time monitoring.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this section to your index.html before the footer -->
+    <section id="stl-models" class="container">
+        <h2>3D Model Files</h2>
+        <p>Explore the 3D models of our hardware components used in the Flex exercise monitoring system. You can interact with the models below and download the STL files.</p>
+        
+        <div class="stl-viewer-wrapper">
+            <div class="stl-model-card">
+                <div class="stl-viewer" data-stl-path="stl/EMG.stl">
+                    <div class="stl-viewer-placeholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zm-8 2V5h2v6h1.17L12 13.17 9.83 11H11zm-6 7h14v2H5v-2z"/>
+                        </svg>
+                        <p>Loading 3D model...</p>
+                    </div>
+                </div>
+                <div class="stl-model-info">
+                    <h3>EMG Sensor Housing</h3>
+                    <p>3D model of the EMG sensor housing used for muscle activity monitoring</p>
+                    <a href="stl/EMG.stl" download class="stl-download-btn">Download STL</a>
+                </div>
+            </div>
+            
+            <div class="stl-model-card">
+                <div class="stl-viewer" data-stl-path="stl/IMUBase.stl">
+                    <div class="stl-viewer-placeholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zm-8 2V5h2v6h1.17L12 13.17 9.83 11H11zm-6 7h14v2H5v-2z"/>
+                        </svg>
+                        <p>Loading 3D model...</p>
+                    </div>
+                </div>
+                <div class="stl-model-info">
+                    <h3>IMU Base Component</h3>
+                    <p>Base component of the Inertial Measurement Unit for motion tracking</p>
+                    <a href="stl/IMUBase.stl" download class="stl-download-btn">Download STL</a>
+                </div>
+            </div>
+            
+            <div class="stl-model-card">
+                <div class="stl-viewer" data-stl-path="stl/IMUTop.stl">
+                    <div class="stl-viewer-placeholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zm-8 2V5h2v6h1.17L12 13.17 9.83 11H11zm-6 7h14v2H5v-2z"/>
+                        </svg>
+                        <p>Loading 3D model...</p>
+                    </div>
+                </div>
+                <div class="stl-model-info">
+                    <h3>IMU Top Cover</h3>
+                    <p>Top cover component for the Inertial Measurement Unit housing</p>
+                    <a href="stl/IMUTop.stl" download class="stl-download-btn">Download STL</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="illustrations" class="container">
+        <h2>System Illustrations</h2>
+        <p>Below are key visualizations of the Flex exercise monitoring system, including architecture diagrams, user interface designs, and system components.</p>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/1.png" alt="Flex System Illustration 1">
+                <p>EMG Render</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/2.jpg" alt="Flex System Illustration 2">
+                <p>EMG Device</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/3.png" alt="Flex System Illustration 3">
+                <p>Sensor Component Diagram</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/4.jpg" alt="Flex System Illustration 4">
+                <p>EMG Device</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/5.png" alt="Flex System Illustration 5">
+                <p>Full Setup</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/6.jpg" alt="Flex System Illustration 6">
+                <p>All Components/p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/7.png" alt="Flex System Illustration 7">
+                <p>IMU Render</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/8.jpg" alt="Flex System Illustration 8">
+                <p>IMU Device</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/9.png" alt="Flex System Illustration 9">
+                <p>IMU Diagram</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/10.png" alt="Flex System Illustration 10">
+                <p>Web App</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="code" class="container">
+        <h2>Project Code Files</h2>
+        <p>Below are the source code files for the Flex exercise monitoring system. Click on the file names to download.</p>
+        
+        <div class="code-files">
+            <div id="code-file-list">
+                <p class="loading-message">Loading code files...</p>
+                <!-- Code files will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="data" class="container">
+        <h2>Project Data Files</h2>
+        <p>Below are the data files used and generated during the Flex exercise monitoring system project. All files are organized by category.</p>
+        
+        <div class="data-files">
+            <div id="data-file-list">
+                <p class="loading-message">Loading data files...</p>
+                <!-- Data files will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="presentation" class="container">
+        <h2>Project Presentation</h2>
+        <p>Our comprehensive presentation details the Flex exercise monitoring system, including design principles, implementation details, and results.</p>
+        
+        <div class="presentation-container">
+            <div class="presentation-preview">
+                <img src="images/presentation-preview.jpg" alt="Presentation Preview" class="preview-image">
+                <div class="overlay">
+                    <a href="presentation/presentation.pdf" download class="download-btn large">Download Presentation</a>
+                </div>
+            </div>
+            <div class="presentation-details">
+                <h3>Presentation Highlights</h3>
+                <ul>
+                    <li>Project motivation</li>
+                    <li>System architecture and component breakdown</li>
+                    <li>Technical implementation details</li>
+                    <li>Performance metrics and testing results</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="video" class="container">
+        <h2>Demo Video</h2>
+        <p>Watch our comprehensive demonstration of the Flex exercise monitoring system in action.</p>
+        
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/muZAM3w_MIc" title="Flex Exercise Monitoring System Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="video-description">
+            <h3>Video Overview</h3>
+            <p>This demonstration showcases the key features of our Flex exercise monitoring system, including:</p>
+            <ul>
+                <li>Real-time motion tracking capabilities</li>
+                <li>User interface walkthrough</li>
+                <li>Data analysis and visualization features</li>
+                <li>Web App integration</li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Flex Exercise Monitoring System | Project Documentation</p>
+        <p>Coursework Submission - (Nyal Patel, Mattieu Bou, Andrea Magri)</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/STLLoader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    <script src="js/stl-viewer.js"></script>
+
+</body>
+</html>
